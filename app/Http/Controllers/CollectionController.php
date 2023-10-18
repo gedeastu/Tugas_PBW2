@@ -1,6 +1,6 @@
 <?php
 
-// 6706220050 - AHMAD FAZA AL FARISI - D3IF 46-04
+// 6706223132 - Gede Astu Nugraha - D3IF 46-04
 
 namespace App\Http\Controllers;
 
