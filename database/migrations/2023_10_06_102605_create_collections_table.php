@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('collections', function (Blueprint $table) {
             $table->id();
-            $table->string('namaKoleksi', 100); // Menghapus '11' dan '100', cukup menentukan tipe data
+            $table->string('namaKoleksi', 100); 
             $table->tinyInteger('jenisKoleksi');
             $table->integer('jumlahKoleksi');
-            $table->timestamps(); // Menggunakan timestamps() untuk created_at dan updated_at
+            $table->timestamps(); 
         });
     }
 
