@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string("agama", 20);
             $table->tinyInteger("jenisKelamin");
         });
-        // AHMAD FAZA AL FARISI (6706220050)
+    
     }
 
     /**

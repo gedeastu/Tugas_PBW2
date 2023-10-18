@@ -10,7 +10,7 @@ return new class extends Migration
      * Run the migrations.
      */
 
-    // AHMAD FAZA AL FARISI (6706220050)
+    // 
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
